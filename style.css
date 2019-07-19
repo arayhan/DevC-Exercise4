@@ -1,0 +1,21 @@
+/* sS0 */
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mybg-color-1 {
+    background-color: #e9ecef;
+}
+
+.mybg-color-2 {
+    background-color: #ccc;
+}
+
+.myfont-family-1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
+}
+
+.banner-carousel img{
+    max-height: 100vh;
+}

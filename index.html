@@ -2,10 +2,141 @@
 <html lang="en">
 <head>
     <title>Exercise 4</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <center>
-        <h1>Final Project</h1>
-    </center>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-4">
+                <div class="container">
+                    <a class="navbar-brand myfont-family-1" href="./index.html">Rogue Delta</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="./skills.html">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide banner-carousel mybg-color-1" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="jumbotron">
+                    <div class="container">
+                        <h1 class="display-4">Critical Thinking</h1>
+                        <p class="lead">Critical Thinking (atau Berpikir Kritis) adalah sebuah kemampuan untuk berpikir jernih dan rasional tentang apa yang harus dilakukan atau apa yang ingin diyakini sebagai kebenaran.</p>
+                        <hr class="my-4">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi totam, accusamus ex accusantium non quos nulla tempore alias incidunt natus distinctio! Tenetur repellendus ipsa quasi esse repellat tempora, debitis adipisci.</p>
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jumbotron">
+                    <div class="container">
+                        <h1 class="display-4">Problem Solving</h1>
+                        <p class="lead">Problem solving adalah sebuah mindset yang membawa seseorang berpikir positif untuk mencari jalan keluar dari permasalahan. Dengan memiliki kemampuan tersebut, kamu akan dikenal sebagai orang yang selalu punya ide dalam menghadapi masalah.</p>
+                        <hr class="my-4">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore obcaecati dolores, repudiandae perferendis molestiae impedit!</p>
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jumbotron">
+                    <div class="container">
+                        <h1 class="display-4">Team Work</h1>
+                        <p class="lead">Team work bisa diartikan kerja tim atau kerjasama, team work atau kerja sama tim merupakan bentuk kerja kelompok dengan keterampilan yang saling melengkapi serta berkomitmen untuk mencapai target yang sudah disepakati sebelumnya untuk mencapai tujuan bersama secara efektif dan efisien.</p>
+                        <hr class="my-4">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sequi porro doloremque?</p>
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    
+    <section id="subscription" class="mybg-color-2 p-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <form class="form-inline" action="https://formspree.io/rayhanprima99@gmail.com" method="POST">
+                    <div class="form-group mr-4">
+                        <label class="mr-2" for="name">Your Name : </label>
+                        <input type="text" class="form-control" id="name" name="name">
+                    </div>
+                    <div class="form-group mr-4">
+                        <label class="mr-2" for="email">Your Email : </label>
+                        <input type="email" class="form-control" id="email" name="_replyto">
+                    </div>
+                    <input class="btn btn-primary" type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container py-5 text-center">
+            <div class="h3 mb-4">Ke Halaman Skill</div>
+            <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal">Go</a>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="myModalLabel">Skills</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Yakin akan pindah ke halaman skill?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a href="skills.html" role="button" class="btn btn-primary">Ok</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
